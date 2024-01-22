@@ -1,0 +1,27 @@
+.card{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(39, 40, 41);
+    margin: 15px 15px;
+    border-radius: 12px;
+    padding: 18px;
+}
+.card img{
+    width: 100%;
+    border-radius: 12px;
+}
+.content-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+.left-card, .right-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left-card span:first-child{
+    font-size: 18px;
+    color: #f1f1f1;
+}

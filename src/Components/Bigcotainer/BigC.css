@@ -1,0 +1,8 @@
+.big-container{
+    max-width: 88%;
+    margin: auto;
+    height: auto;
+    background-color: rgb(39, 40, 41);
+    border-radius: 12px;
+    padding: 4rem 0;
+}

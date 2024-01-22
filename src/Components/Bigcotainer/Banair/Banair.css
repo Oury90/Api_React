@@ -1,0 +1,39 @@
+.top-baner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 4rem;
+    max-width: 90%;
+    margin: auto;
+    height: 250px;
+    background-image: url(https://cdn.pixabay.com/photo/2021/02/26/22/34/river-6053382_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.left-baner{
+    display: flex;
+    flex-direction: column;
+    /* width: 300px; */
+    row-gap: 1rem;
+}
+.left-baner span{
+    color: #f1f1f1;
+    font-size: 1.2rem
+}
+.left-baner h1{
+    color: #f1f1f1;
+    font-size: 32px;
+}
+.left-baner button{
+    width: 150px;
+    padding: 12px 0;
+    border: none;
+    border-radius: 40px;
+}
+.logo-baner img{
+    width: 100px;
+    height: 100px;
+}
